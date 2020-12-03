@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/E-commerce-Website-Frontend/static/css/main.4bf5b981.chunk.css",
+    "main.js": "/E-commerce-Website-Frontend/static/js/main.dde7bf93.chunk.js",
+    "main.js.map": "/E-commerce-Website-Frontend/static/js/main.dde7bf93.chunk.js.map",
+    "runtime-main.js": "/E-commerce-Website-Frontend/static/js/runtime-main.efaeaeeb.js",
+    "runtime-main.js.map": "/E-commerce-Website-Frontend/static/js/runtime-main.efaeaeeb.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/E-commerce-Website-Frontend/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.3f60478a.chunk.js": "/E-commerce-Website-Frontend/static/js/2.3f60478a.chunk.js",
+    "static/js/2.3f60478a.chunk.js.map": "/E-commerce-Website-Frontend/static/js/2.3f60478a.chunk.js.map",
+    "static/js/3.889f650b.chunk.js": "/E-commerce-Website-Frontend/static/js/3.889f650b.chunk.js",
+    "static/js/3.889f650b.chunk.js.map": "/E-commerce-Website-Frontend/static/js/3.889f650b.chunk.js.map",
+    "index.html": "/E-commerce-Website-Frontend/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/E-commerce-Website-Frontend/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.4bf5b981.chunk.css.map": "/E-commerce-Website-Frontend/static/css/main.4bf5b981.chunk.css.map",
+    "static/js/2.3f60478a.chunk.js.LICENSE.txt": "/E-commerce-Website-Frontend/static/js/2.3f60478a.chunk.js.LICENSE.txt",
+    "static/media/Pack.242318f7.png": "/E-commerce-Website-Frontend/static/media/Pack.242318f7.png",
+    "static/media/Subscriptions.78f41f12.png": "/E-commerce-Website-Frontend/static/media/Subscriptions.78f41f12.png",
+    "static/media/Track.cb4cba89.png": "/E-commerce-Website-Frontend/static/media/Track.cb4cba89.png",
+    "static/media/Upload.4582a475.png": "/E-commerce-Website-Frontend/static/media/Upload.4582a475.png",
+    "static/media/aff.4fbd8a7b.png": "/E-commerce-Website-Frontend/static/media/aff.4fbd8a7b.png",
+    "static/media/banner_1_button.27fb39be.png": "/E-commerce-Website-Frontend/static/media/banner_1_button.27fb39be.png",
+    "static/media/banner_2_button.8620b3e9.png": "/E-commerce-Website-Frontend/static/media/banner_2_button.8620b3e9.png",
+    "static/media/banner_3_button.eef549c2.png": "/E-commerce-Website-Frontend/static/media/banner_3_button.eef549c2.png",
+    "static/media/box.6711ca86.png": "/E-commerce-Website-Frontend/static/media/box.6711ca86.png",
+    "static/media/deliver.7173c09a.png": "/E-commerce-Website-Frontend/static/media/deliver.7173c09a.png",
+    "static/media/fandb.65951dde.png": "/E-commerce-Website-Frontend/static/media/fandb.65951dde.png",
+    "static/media/freshcars_logo.d9a2a924.png": "/E-commerce-Website-Frontend/static/media/freshcars_logo.d9a2a924.png",
+    "static/media/jumbotron.css": "/E-commerce-Website-Frontend/static/media/girl_3_filter.6e8677e5.jpg",
+    "static/media/Singup.css": "/E-commerce-Website-Frontend/static/media/girl_4.751b00da.jpg",
+    "static/media/orangeExpress.7169647c.png": "/E-commerce-Website-Frontend/static/media/orangeExpress.7169647c.png",
+    "static/media/orangeexpress_logo.777a57ab.png": "/E-commerce-Website-Frontend/static/media/orangeexpress_logo.777a57ab.png",
+    "static/media/time.68ce093c.png": "/E-commerce-Website-Frontend/static/media/time.68ce093c.png",
+    "static/media/vas.971da9fd.png": "/E-commerce-Website-Frontend/static/media/vas.971da9fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efaeaeeb.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.3f60478a.chunk.js",
+    "static/css/main.4bf5b981.chunk.css",
+    "static/js/main.dde7bf93.chunk.js"
+  ]
+}
