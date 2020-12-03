@@ -1,0 +1,9 @@
+.fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 90px 100px;
+    
+    z-index:1000;
+}

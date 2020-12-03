@@ -1,0 +1,29 @@
+.carousel{
+    z-index: 0
+}
+
+
+.image-size{
+    height:480px;
+    width:100%;
+}
+
+.carousel-size{
+    
+    width:100%;
+    padding: 80px 0 0 0;
+    margin-top:100%;
+    margin: auto 0 0 0;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-display{
+        width:100%;
+        height:auto;
+    }
+    .image-size{
+        height:auto;
+        width:100%;
+    }
+}

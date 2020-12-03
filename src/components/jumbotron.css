@@ -1,0 +1,53 @@
+.deck{
+    display:flex;
+    flex-flow: row wrap;
+    padding: 100px 100px 100px 100px;
+    align-items: center;
+    text-align: center;
+    background-image: url('../assets/girl_3_filter.jpg'); 
+    background-size: cover;
+    background-position: 20% 10%;
+}
+
+.deck2{
+    display:flex;
+    flex-flow: row wrap;
+    padding: 100px 100px 0 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.headingh2{
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 45px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.custom-h5{
+    font-weight:600;
+    font-size: 25px;
+}
+
+.custom-card{
+    padding: 50px 0 50px 0;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.img-size{
+    width:50%;
+}
+
+@media only screen and (max-width: 500px) {
+    .phone-card{
+        margin:0 0 0 0;
+        width:100%;
+    }
+    .phone-container{
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+    }
+}
