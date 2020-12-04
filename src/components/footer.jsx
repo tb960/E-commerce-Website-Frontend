@@ -16,10 +16,10 @@ function Footer(){
                 <h2 class="headingh6">OUR TRUSTED PARTNERS</h2>
                 <hr></hr>
                 <Row xs="4">
-                    <Col><img className="log-sm logo-size" src={logo1}></img></Col>
-                    <Col><img className="log-sm" src={logo2}></img></Col>
-                    <Col><img className="log-sm3" src={logo3}></img></Col>
-                    <Col><img className="log-sm" src={logo4}></img></Col>
+                    <Col><img className="logo-comp logo-ipad logo-phone" src={logo1}></img></Col>
+                    <Col><img className="logo-ipad logo-phone " src={logo2}></img></Col>
+                    <Col><img className="logo-ipad-3 logo-phone-3 " src={logo3}></img></Col>
+                    <Col><img className="logo-ipad logo-phone " src={logo4}></img></Col>
                 </Row>
             </Container>
 
@@ -36,7 +36,7 @@ function Footer(){
                           <li>Singapore 415987</li>
                       </ul>
                   </p>
-                  <img class="logo-size" src={company}></img>
+                  <img class="logo-size-orange" src={company}></img>
                 </div>
                 <hr class="clearfix w-100 d-md-none pb-3"></hr>
                 <div class="col-md-3 mb-md-0 mb-3">

@@ -9,25 +9,25 @@ import './overlay.css';
 function Overlay(){
     return(
         <Container fluid>
-            <div className="overlay overlay-dissapear">
+            <div className="overlay-comp overlay-ipad overlay-phone">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="input-div">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="input-div-comp input-div-phone">
                         <div class="input-group">
                             <div class="input-group-append">
-                                <button class="btn btn-success" type="button">Merchants</button>
+                                <button class="btn-comp btn-comp-ipad btn-ipad btn-phone btn btn-success" type="button">Merchants</button>
                             </div>
-                            <input type="text" placeholder="Track your delivery" class="input-size "></input>
+                            
                         </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="input-div">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="input-div-comp input-div-phone">
                         <div class="input-group">
                             <div class="input-group-append">
-                                <button class="btn btn-secondary" type="button">Deliver</button>
+                                <button class="btn-comp btn-comp-ipad btn-ipad btn-phone btn btn-secondary" type="button">Drivers</button>
                             </div>
-                            <input type="text" placeholder="Track your delivery" class="input-size "></input>
+                            
                         </div>
                         </div>
                     </div>

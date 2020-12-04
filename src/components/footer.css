@@ -1,7 +1,7 @@
 @media only screen and (max-width: 900px) {
     .log-sm{
-        width:80px;
-        height:80px;
+        width:70px;
+        height:70px;
         margin:0 0 0 0;
     }
 
@@ -12,7 +12,47 @@
 
 }
 
-.logo-size{
+@media only screen and (max-width: 415px) {
+    .logo-phone{
+        width:70px;
+        height:70px;
+        margin:0 0 0 0;
+    }
+
+    .logo-phone-3{
+        height:70%;
+        width:120%;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media only screen and (min-width:768px){
+    .logo-ipad{
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        width:100px;
+        height:100px;
+    }
+
+    .logo-ipad-3{
+        width:150px;
+        height:80px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width:770px){
+    .logo-comp{
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        width:100px;
+        height:100px;
+    }
+}
+
+.logo-size-orange{
     margin:0 0 0 0;
     padding:0 0 0 0;
     width:100px;

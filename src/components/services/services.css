@@ -8,13 +8,29 @@
 }
 
 .icon{
-    margin: 0 0 10px 0;
+    margin: 20px 0 10px 0;
     padding: 0 0 0 0;
     
 }
 
+.reason-size{
+    position:relative;
+    align-items: center;
+    width:65%;
+    height:auto;
+    padding-bottom: 10px;
+}
+
+.reason-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+
 .icon-2{
-    margin: 0 0 70px 0;
+    margin: 40px 0 70px 0;
     padding: 0 0 0 0;
 }
 
@@ -27,27 +43,33 @@
 }
 
 .heading-pad{
-    padding-top: 25px;
+    padding-top: 0px;
     padding-bottom:25px;
 }
 
 .headingh1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+
     margin-bottom: 20px;
     font-size: 35px;
 }
 
 .heading-reason{
-    margin-top: 55px;
-    margin-bottom:50px;
+    margin-bottom:25px;
 }
 
 .headingh3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 18px;
-    margin-bottom: 0;
+}
+
+.headingp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .headingh4{
@@ -68,5 +90,26 @@
 .content-pad{
     padding-top: 25px;
 }
+
+@media only screen and (max-width: 500px) {
+    .img-size{
+        position:relative;
+        align-items: center;
+        width:70%;
+        height:auto;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .headingp{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top:65px;
+        margin-bottom: 45px;
+    }
+}
+
 
 
