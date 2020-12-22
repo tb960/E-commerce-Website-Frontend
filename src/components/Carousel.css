@@ -17,7 +17,7 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .carousel-display{
         width:100%;
         height:auto;
@@ -25,50 +25,5 @@
     .image-size{
         height:auto;
         width:100%;
-    }
-
-    .image-size-1{
-        height:auto;
-        width:100%;
-    }
-}
-
-@media only screen and (max-width: 380px) {
-    .carousel-display{
-        width:100%;
-        height:500px;
-    }
-    .image-size{
-        height:100%;
-        width:800px;
-        left:50%;
-        margin-left: -210px;
-    }
-
-    .image-size-1{
-        height:100%;
-        width:800px;
-        left:50%;
-        margin-left: -150px;
-    }
-}
-
-@media (max-width: 420px) {
-    .carousel-display{
-        width:100%;
-        height:500px;
-    }
-    .image-size{
-        height:100%;
-        width:800px;
-        left:50%;
-        margin-left: -192px;
-    }
-
-    .image-size-1{
-        height:100%;
-        width:800px;
-        left:50%;
-        margin-left: -145px;
     }
 }

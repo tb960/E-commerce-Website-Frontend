@@ -19,7 +19,7 @@ function ControlledCarousel() {
       <Carousel className = "carousel" activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-            className="image-size image-size-1"
+            className=" image-size"
             src={logo}
             alt="First slide"
           />
@@ -27,14 +27,14 @@ function ControlledCarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="image-size image-size-380"
+            className="image-size"
             src={logo1}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="image-size image-size-380"
+            className="image-size"
             src={logo2}
             alt="Third slide"
           />

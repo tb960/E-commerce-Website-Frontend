@@ -31,7 +31,7 @@ function NavBar() {
                 </Nav>
                 
             </Navbar.Collapse>
-            <Button className="btn-sm btn-phone-whatsapp" variant="success" href="https://www.google.com/">Whatsapp</Button>
+            <Button className="btn-sm btn-phone" variant="success" href="https://www.google.com/">Whatsapp</Button>
             </Navbar>
         </Container>
     );
