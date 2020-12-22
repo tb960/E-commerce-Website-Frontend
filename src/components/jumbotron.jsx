@@ -1,9 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import icons1 from '../assets/Upload.png';
-import icons2 from '../assets/Pack.png'
-import icons3 from '../assets/Track.png'
+import video1 from '../assets/OrangeExpress.mp4';
 import './jumbotron.css';
 
 function Jumbo() {
@@ -16,7 +14,7 @@ function Jumbo() {
             <div className="card-row card-row-ipad">
                 <Card className="phone-card custom-card col-lg-3 col-md-12">
                     
-                    <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+                    <iframe src={video1}
                         class="vid-size"
                         frameborder='0'
                         allow='autoplay; encrypted-media'

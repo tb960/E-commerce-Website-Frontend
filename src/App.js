@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel'
 import Services from './components/Column.jsx';
+import Services2 from './components/drivermerchants.jsx';
 import Jumbo from './components/jumbotron.jsx';
 import Faq from './components/Faq';
 import Signup from './components/signup.jsx';
@@ -18,6 +19,7 @@ function App() {
       <Overlay/>
       <Services/>
       <Jumbo/>
+      <Services2/>
       <Faq/>
       <Signup/>
       <Prefooter/>

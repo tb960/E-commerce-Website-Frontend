@@ -4,7 +4,7 @@
 
 .nav-logo {
     float: left;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 80px;
 }
 
 .nav-position{
@@ -24,14 +24,33 @@
 }
 
 .btn-sm{
-    margin-left: px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+.nav-size{
+    height:40px;
 }
 
 @media only screen and (max-width: 1000px) {
     .logo-center{
-        margin: 0 auto;
+        margin: 0 0 0 auto;
     }
     .btn-phone-whatsapp{
         margin: 0 0 0 0px;
+        font-size: 90%;
+        padding: 3x 2px 3px 2px;
     }
+}
+
+.navbar-link:hover{
+    color:#25D366 !important;
+}
+
+.navbar-link.active{
+    color: #25D366 !important;
+}
+
+.navbar-link{
+    color:white !important;
 }

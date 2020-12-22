@@ -14,20 +14,18 @@ function Overlay(){
                     <div class="col-lg-6 col-sm-6">
                         <div class="input-div-comp input-div-phone">
                         <div class="input-group">
-                            <div class="input-group-append">
-                                <button class="btn-comp btn-comp-ipad btn-ipad btn-phone btn btn-success" type="button">Merchants</button>
-                            </div>
-                            
+                        <a className="font-sz-comp font-sz-ipad font-sz-phone btn-comp btn-comp-ipad btn-ipad btn-phone" href='https://www.freecodecamp.org/'>
+                            <button class="font-sz-comp font-sz-ipad font-sz-phone btn-comp btn-comp-ipad btn-ipad btn-phone btn btn-success" type="button">For Merchants  <i className="fa fa-chevron-circle-right"></i> CLICK here!</button>
+                        </a>
                         </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6">
                         <div class="input-div-comp input-div-phone">
                         <div class="input-group">
-                            <div class="input-group-append">
-                                <button class="btn-comp btn-comp-ipad btn-ipad btn-phone btn btn-secondary" type="button">Drivers</button>
-                            </div>
-                            
+                        <a className="font-sz-comp font-sz-ipad font-sz-phone btn-comp btn-comp-ipad btn-ipad btn-phone" href='https://www.freecodecamp.org/'>
+                            <button class="font-sz-comp font-sz-ipad font-sz-phone btn-comp btn-comp-ipad btn-ipad btn-phone btn btn-secondary" type="button">For Drivers <i className="fa fa-chevron-circle-right"></i> CLICK here!</button>
+                        </a>
                         </div>
                         </div>
                     </div>

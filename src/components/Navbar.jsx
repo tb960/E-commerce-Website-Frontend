@@ -16,22 +16,23 @@ function NavBar() {
             <img
                 alt="logo"
                 src={logo}
-                width="180"
+                width="160"
                 height="55"
                 className="d-inline-block align-top"
                 />
             </Navbar.Brand>
-            
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="ml-auto">
-                <Nav.Link className="navbar-link" href="#features">Pricing</Nav.Link>
-                <Nav.Link className="navbar-link" href="#pricing">FAQs</Nav.Link>
-                <Nav.Link className="navbar-link" href="#pricing">Contact</Nav.Link>
-                <Nav.Link className="navbar-link" href="#pricing">Drive For Orange Express</Nav.Link>
-                </Nav>
+            <Nav className="ml-auto">
+                <Button className="btn-phone-whatsapp" variant="success" href="https://api.whatsapp.com/send?phone=15551234567">Whatsapp Us    <i className="fa fa-whatsapp"></i></Button>
+                <Navbar.Collapse className="nav-size" id="responsive-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link className="navbar-link" href="#features">About Us</Nav.Link>
+                        <Nav.Link className="navbar-link" href="#FAQs">Contact Us</Nav.Link>
+                        <Nav.Link className="navbar-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc-bZBqLav-TTlZ8IKRxo2jdxRkm6pHnPThrPjsN-ssaEXrWQ/viewform">For Drivers</Nav.Link>
+                        <Nav.Link className="navbar-link" href="www.google.com">For Merchants</Nav.Link>
+                    </Nav>
                 
-            </Navbar.Collapse>
-            <Button className="btn-sm btn-phone-whatsapp" variant="success" href="https://www.google.com/">Whatsapp</Button>
+                </Navbar.Collapse>
+            </Nav>
             </Navbar>
         </Container>
     );

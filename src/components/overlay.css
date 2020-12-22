@@ -2,7 +2,7 @@
     z-index: 5;
     position: absolute;
     top: 540px;
-    width: 40%;
+    width: 60%;
     height:auto;
     border: 1px  #900;
     background: linear-gradient(to right,  grey 0%, grey 50%, black 50%, black 100%);
@@ -10,21 +10,28 @@
     padding: 15px 15px 15px 15px;
     border-radius: 4px;
     align-items: center;
-    transform: translate(72.5%,10%);
+    transform: translate(32%,10%);
     background-position: center;
 }
 
 .btn-comp{
     padding-left: 10px;
     padding-right: 14px;
-    width:310px;
+    margin-right:5px;
+    width: 100%;
     height:45px;
+    position:relative;
 }
 
 .input-div-comp{
   margin-left:20px;
   margin-top:0;
 }
+
+.font-sz-comp{
+  font-size: 20px;
+}
+
 
 
 @media only screen and (max-width: 770px) {
@@ -49,6 +56,10 @@
     width:240px;
     height:45px;
   }
+
+  .font-sz-ipad{
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -62,6 +73,10 @@
     padding-right: 14px;
     width:240px;
     height:45px;
+  }
+
+  .font-sz-phone{
+    font-size:15px;
   }
 }
 

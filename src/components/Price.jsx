@@ -42,6 +42,7 @@ function table() {
                     </tr>
                 </tbody>
             </Table>
+            <p>Terms and Condition applied...</p>
             
             </Container>
         </div>

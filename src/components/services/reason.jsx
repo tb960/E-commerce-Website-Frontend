@@ -13,18 +13,18 @@ function Reasons() {
         <Row>
             <Col>
                 <h2 className="headingh1 heading-reason">Why Orange Express?</h2>
-                <p className="headingh3">By professionals.</p>
+                <p className="headingh3">By Professionals</p>
             </Col>
         </Row>
         <Row className ="icon">
             <Col>
                 <img className ="reason-size" src={icons1}></img>
-                <h5 className="reason-header" >Unparallel Precision</h5>
+                <h5 className="reason-header" >Unparalleled Precision</h5>
                 <p>Delivery within exact hourly windows</p>
             </Col>
             <Col>
                 <img className ="reason-size" src={icons2}></img>
-                <h5 className="reason-header" >Affordable Flat-Fees</h5>
+                <h5 className="reason-header" >Affordable Flat Fees</h5>
                 <p>Zero commission or hidden charges</p>
             </Col>
         </Row>

@@ -4,7 +4,7 @@
 
 
 .image-size{
-    height:480px;
+    height:500px;
     width:100%;
 }
 
@@ -17,7 +17,7 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .carousel-display{
         width:100%;
         height:auto;
