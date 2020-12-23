@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import icons1 from '../../assets/pandp.svg';
 import icons2 from '../../assets/Subscriptions.svg';
 import icons3 from '../../assets/Cake.png';
-import icons4 from '../../assets/Cake_2.png';
+import icons4 from '../../assets/Cake_3.png';
 import './services.css';
 
 function Services() {
@@ -18,21 +18,21 @@ function Services() {
         </Row>
         <Row className ="icon-2">
             <Col>
-                <img className ="img-size icon-size1" src={icons3}></img>
+                <img className ="img-size icon-size1 icon-ipad" src={icons3}></img>
                 <h5 className="heading-pad headingh5" >Cakes and Dessert</h5>
             </Col>
             <Col>
-                <img className ="img-size icon-size1" src={icons4}></img>
+                <img className ="img-size icon-size1 icon-ipad" src={icons4}></img>
                 <h5 className="heading-pad headingh5" >Freshness Guarantee</h5>
             </Col>
         </Row>
         <Row className ="icon">
             <Col>
-                <img className ="img-size icon-size" src={icons1}></img>
+                <img className ="img-size icon-size icon-ipad-2" src={icons1}></img>
                 <p className="heading-pad headingh5">Parcels and Packages</p>
             </Col>
             <Col>
-                <img className ="img-size icon-size" src={icons2}></img>
+                <img className ="img-size icon-size icon-ipad-2" src={icons2}></img>
                 <p className="heading-pad headingh5" >Subscriptions</p>
             </Col>
         </Row>

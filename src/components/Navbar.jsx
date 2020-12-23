@@ -16,21 +16,19 @@ function NavBar() {
             <img
                 alt="logo"
                 src={logo}
-                width="160"
+                width="150"
                 height="55"
                 className="d-inline-block align-top"
                 />
             </Navbar.Brand>
             <Nav className="ml-auto">
-                <Button className="btn-phone-whatsapp" variant="success" href="https://api.whatsapp.com/send?phone=15551234567">Whatsapp Us    <i className="fa fa-whatsapp"></i></Button>
+                <Button className="btn-phone-whatsapp" variant="success" href="https://api.whatsapp.com/send?phone=+6588135512">Whatsapp Us    <i className="fa fa-whatsapp"></i></Button>
                 <Navbar.Collapse className="nav-size" id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className="navbar-link" href="#features">About Us</Nav.Link>
-                        <Nav.Link className="navbar-link" href="#FAQs">Contact Us</Nav.Link>
+                        <Nav.Link className="navbar-link" href="#contactus">Contact Us</Nav.Link>
                         <Nav.Link className="navbar-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc-bZBqLav-TTlZ8IKRxo2jdxRkm6pHnPThrPjsN-ssaEXrWQ/viewform">For Drivers</Nav.Link>
-                        <Nav.Link className="navbar-link" href="www.google.com">For Merchants</Nav.Link>
+                        <Nav.Link className="navbar-link" href="https://docs.google.com/forms/d/e/1FAIpQLSetDV8z8NcJuKUADfX_peLWBep2i1kK0qXcZxRV0b-X4e1-PA/viewform">For Merchants</Nav.Link>
                     </Nav>
-                
                 </Navbar.Collapse>
             </Nav>
             </Navbar>

@@ -1,8 +1,19 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import video1 from '../assets/OrangeExpress.mp4';
+import icons1 from '../assets/Upload.png';
+import icons2 from '../assets/Pack.png';
+import icons3 from '../assets/Track.png';
+import icons4 from '../assets/Received.png';
 import './jumbotron.css';
+
+//<iframe src={video1}
+//class="vid-size"
+//frameborder='0'
+//allow='autoplay; encrypted-media'
+//allowfullscreen
+//title='video'
+//></iframe>
 
 function Jumbo() {
     return (
@@ -14,13 +25,7 @@ function Jumbo() {
             <div className="card-row card-row-ipad">
                 <Card className="phone-card custom-card col-lg-3 col-md-12">
                     
-                    <iframe src={video1}
-                        class="vid-size"
-                        frameborder='0'
-                        allow='autoplay; encrypted-media'
-                        allowfullscreen
-                        title='video'
-                    ></iframe>
+                    <Card.Img variant="top" src={icons1} className="img-size"/>
                     <Card.Body>
                     <Card.Title><h5 class="custom-h5">Step 1 : Send</h5></Card.Title>
                     <Card.Text>
@@ -29,13 +34,7 @@ function Jumbo() {
                     </Card.Body>
                 </Card>
                 <Card className="phone-card custom-card col-lg-3 col-md-12">
-                    <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-                        class="vid-size"
-                        frameborder='0'
-                        allow='autoplay; encrypted-media'
-                        allowfullscreen
-                        title='video'
-                    ></iframe>
+                    <Card.Img variant="top" src={icons2} className="img-size" />
                     <Card.Body>
                     <Card.Title><h5 class="custom-h5">Step 2 : Pack</h5></Card.Title>
                     <Card.Text>
@@ -44,13 +43,7 @@ function Jumbo() {
                     </Card.Body>
                 </Card>
                 <Card className="phone-card custom-card col-lg-3 col-md-12">
-                    <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-                        frameborder='0'
-                        class="vid-size"
-                        allow='autoplay; encrypted-media'
-                        allowfullscreen
-                        title='video'
-                    ></iframe>
+                    <Card.Img variant="top" src={icons3} className="img-size"/>
                     <Card.Body>
                     <Card.Title><h5 class="custom-h5">Step 3 : Track</h5></Card.Title>
                     <Card.Text>
@@ -59,17 +52,11 @@ function Jumbo() {
                     </Card.Body>
                 </Card>
                 <Card className="phone-card custom-card col-lg-3 col-md-12 col-sm-12">
-                    <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-                        class="vid-size"
-                        frameborder='0'
-                        allow='autoplay; encrypted-media'
-                        allowfullscreen
-                        title='video'
-                    ></iframe>
+                    <Card.Img variant="top" src={icons4} className="img-size"/>
                     <Card.Body>
-                    <Card.Title><h5 class="custom-h5">Step 3 : Track</h5></Card.Title>
+                    <Card.Title><h5 class="custom-h5">Step 4 : Received</h5></Card.Title>
                     <Card.Text>
-                        Live tracking as soon as your packages are sent out
+                        Received your packages in time.
                     </Card.Text>
                     </Card.Body>
                 </Card>

@@ -19,7 +19,6 @@ function App() {
       <Overlay/>
       <Services/>
       <Jumbo/>
-      <Services2/>
       <Faq/>
       <Signup/>
       <Prefooter/>

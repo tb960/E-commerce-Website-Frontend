@@ -2,7 +2,7 @@
     z-index: 5;
     position: absolute;
     top: 540px;
-    width: 60%;
+    width: 80%;
     height:auto;
     border: 1px  #900;
     background: linear-gradient(to right,  grey 0%, grey 50%, black 50%, black 100%);
@@ -10,7 +10,7 @@
     padding: 15px 15px 15px 15px;
     border-radius: 4px;
     align-items: center;
-    transform: translate(32%,10%);
+    transform: translate(11.5%,10%);
     background-position: center;
 }
 

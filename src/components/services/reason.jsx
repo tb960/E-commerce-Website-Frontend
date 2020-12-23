@@ -19,7 +19,7 @@ function Reasons() {
         <Row className ="icon">
             <Col>
                 <img className ="reason-size" src={icons1}></img>
-                <h5 className="reason-header" >Unparalleled Precision</h5>
+                <h5 className="reason-header" >On Time Delivery</h5>
                 <p>Delivery within exact hourly windows</p>
             </Col>
             <Col>
