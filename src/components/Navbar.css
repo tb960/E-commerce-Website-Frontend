@@ -40,6 +40,11 @@
         margin: 0 0 0 0px;
         font-size: 90%;
         padding: 3x 2px 3px 2px;
+        display: inline;
+    }
+
+    .nav-phone{
+        margin:0 0 0 0;
     }
 }
 

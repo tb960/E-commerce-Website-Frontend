@@ -18,8 +18,8 @@ function Prefooter(){
                     <Card.Text>
                         Email or WhatsApp Us!
                     </Card.Text>
-                    <Button variant="info" className="button-size">Email Us</Button>
-                    <Button variant="success" className="button-size">WhatsApp Us</Button>
+                    <a href="mailto:joseph@freshcars.sg"><Button variant="info" className="button-size">Email Us</Button></a>
+                    <a href="https://api.whatsapp.com/send?phone=+6588135512"><Button variant="success" className="button-size">WhatsApp Us</Button></a>
                     </Card.Body>
                 </Card>
                 <Card className="phone-card custom-card col-sm-12">
@@ -29,7 +29,7 @@ function Prefooter(){
                     <Card.Text>
                     Deliver & earn with Orange Express. Be your own boss!
                     </Card.Text>
-                    <Button variant="info" className="button-size">Apply Now</Button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-bZBqLav-TTlZ8IKRxo2jdxRkm6pHnPThrPjsN-ssaEXrWQ/viewform"><Button variant="info" className="button-size">Apply Now</Button></a>
                     </Card.Body>
                 </Card>
                 </CardDeck>
